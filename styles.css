@@ -1,0 +1,50 @@
+/* Set font family, size, and color for all paragraphs */
+p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Style headings (h1, h2, etc.) */
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #ff00bf;
+}
+
+/* Set background color for the entire page */
+body {
+    background-color: grey;
+}
+
+/* Style buttons */
+.btn {
+    background-color: #ff008c;
+    color: #fff;
+    padding: 10px 20px;
+    
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Center an element horizontally */
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Create a responsive grid layout */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+/* Add a smooth transition effect */
+.fade-in {
+    opacity: 3;
+    transition: opacity 0.5s ease-in-out;
+}
+.fade-in.active {
+    opacity: 1;
+}
